@@ -1,0 +1,175 @@
+html {
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    -webkit-tap-highlight-color: transparent;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font: normal 24px/1.4 Source Sans Pro, system-ui, sans-serif;
+    margin: 0;
+    color: #fff;
+    display: flex;
+    background-color: #101019;
+}
+
+a {
+    color: #ac3939;
+    text-decoration-thickness: from-font;
+}
+
+a:hover,
+a:focus {
+    outline: none;
+    color: #0e0e16;
+    background-color: #cf1717;
+    box-shadow: 3px 3px 0 #730d0d;
+    text-decoration: none;
+}
+
+a:active {
+    box-shadow: 0 0 0 3px #cf1717;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    margin: auto;
+}
+
+.border {
+    border-right: 5px dotted #cf1717;
+}
+
+.bio {
+    font-size: 24px;
+    line-height: 1.2;
+    color: #c8d0cb;
+}
+
+.bio h1 {
+    font-size: 88px;
+    font-weight: 400;
+    margin: 0;
+    color: #e60000;
+}
+
+.bio p {
+    margin: 0;
+    margin-top: 24px;
+    font-size: 28px;
+}
+
+.work ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+    color: #7f9084;
+}
+
+.work li {
+    margin-top: 16px;
+}
+
+.work a {
+    font-size: 24px;
+}
+
+::selection {
+    background: #e60000;
+    color: #0e0e16;
+}
+
+.footer {
+    padding: 0 5em 0 5em;
+    display: contents !important;
+}
+
+.row {
+    flex-wrap: wrap;
+  }
+  
+.col {
+  display: flex;
+  justify-content: center;
+  flex-basis: 50%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+  display: contents;
+  align-content: center !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.list-inline-item {
+  display: inline-block;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.list-inline-item a:hover,
+.list-inline-item a:focus {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+@media (max-width: 1080px) {
+    .container {
+        flex-direction: column;
+        justify-content: unset;
+        margin: 0 auto;
+    }
+
+    .row {
+        flex-direction: column;
+        justify-content: unset;
+        margin: 0 auto;
+        flex-wrap: unset;
+    }
+
+    .col {
+        flex-basis: 100%;
+        justify-content: left;
+    }
+
+    .border {
+        border: 0;
+    }
+
+    .bio {
+        padding: 40px 15px;
+    }
+
+    .work {
+        padding: 10px 15px 10px;
+    }
+
+    .footer {
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .bio h1 {
+        font-size: 40px;
+    }
+}
