@@ -10,5 +10,6 @@ my socials, in order of preference:
 | [<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" width="20" />](https://t.me/HagenHyena){:target="_blank"} [Telegram](https://t.me/HagenHyena){:target="_blank"} | @HagenHyena
 | [<img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" width="20" />](https://www.instagram.com/hagenhyena){:target="_blank"} [Instagram](https://www.instagram.com/hagenhyena){:target="_blank"} |
 | [<img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/X_icon.svg" width="20" />](https://twitter.com/HagenHyena){:target="_blank"} [Twitter](https://twitter.com/HagenHyena){:target="_blank"} |
+| [<img src="https://barq.app/favicon.ico" width="20" />](https://barq.app/@hagen){:target="_blank"} [BARQ!](https://barq.app/@hagen){:target="_blank"} |
 
 now give me a hug (please?)
